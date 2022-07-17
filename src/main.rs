@@ -45,7 +45,7 @@ fn main() {
 	println!("Decrypted plaintext: {:?}", decrypted_plaintext);
 
 	// Check that the decrypted plaintext matches the original plaintext.
-	// assert_eq!(decrypted_plaintext, plaintext);
+	assert_eq!(decrypted_plaintext, plaintext);
 
 
 	println!("========================================================");
